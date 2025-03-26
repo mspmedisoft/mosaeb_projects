@@ -1,0 +1,31 @@
+---ADMIN---
+username
+password
+appKey
+appSecret
+
+---USER---
+bkashURL
+callbackURL
+successCallbackURL
+failureCallbackURL
+cancelledCallbackURL
+amount
+intent
+currency
+agreementID
+paymentCreateTime
+paymentExecuteTime
+trxID
+transactionStatus
+customerMsisdn
+payerReference
+merchantInvoiceNumber
+
+Replacing Original names:
+
+1. f/FlutterBkash -> f/FlutterShatajPay
+2. BkashCredentials -> ShatajPayCredentials
+3. _bkashApi -> _shatajPayApi
+4. BkashPaymentStatus -> ShatajPaymentStatus
+5. bkashPayURL -> shatajPayURL
